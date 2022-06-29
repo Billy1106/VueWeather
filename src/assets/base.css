@@ -1,0 +1,43 @@
+body {
+    font-family: "Raleway","Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-display: swap;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* App.vue */
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("./background-image.jpeg") center;
+}
+.container{
+    width:50vw;
+    backdrop-filter: blur(20px);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 13px 5px rgba(0,0,0,0.25);
+}
+
+/* Form.vue */
+input{
+    background-color: transparent;
+    border:0;
+    border-bottom: solid 1px #5651f1;
+    width: 40%;
+    padding-bottom: 4px;
+    color: #fff !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    color:#333;
+}
